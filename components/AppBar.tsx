@@ -7,13 +7,13 @@ export const AppBar = () => {
     <div className="flex flex-col justify-center items-center p-3">
       <div>
         <button
-          className="py-3 px-4 border rounded m-2 hover:border-green-300 hover:text-green-300 transition-all"
+          className="py-3 px-6 border rounded m-2 hover:border-green-300 hover:text-green-300 transition-all"
           onClick={() => signIn()}
         >
           Sign In
         </button>
         <button
-          className="py-3 px-4 border rounded m-2 hover:border-red-300 hover:text-red-300"
+          className="py-3 px-6 border rounded m-2 hover:border-red-300 hover:text-red-300"
           onClick={() => signOut()}
         >
           Sign Out
